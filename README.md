@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h1 align="center">
+<img height=250 src='./public/assets/images/logo.png'/>  
+<br/>
+  💫📋Tutut Control📋💫
+</h1>
+<p align="center">
+    Esta es una 👉🏻<a href="http://www.isaias.work">aplicación web</a> para el monitoreo GPS de transporte público y forma parte del sistema de transporte y monitoreo GPS para transporte público Tutut.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🧱 Proyecto
 
-## Available Scripts
+Estas son las aplicaciones que forman parte del sistema de transporte y monitoreo GPS de transporte público
 
-In the project directory, you can run:
+- <a href="https://github.com/isaiahsalah/tutut-server">Backend de servidor</a>
+- <a href="https://github.com/isaiahsalah/tutut-control">Frontend para control y administración</a>
+- <a href="https://github.com/isaiahsalah/tutut-driver-owner">Aplicación movil para conductor y dueño</a>
+- <a href="https://github.com/isaiahsalah/tutut-passenger">Aplicación movil para pasajero</a>
 
-### `npm start`
+# 🧑🏻‍💻 Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React ⚛️
+- Material UI
+- socket.io
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🚀 Instalación
 
-### `npm test`
+1. **Importar**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Clona este repositorio en tu máquina local.
 
-### `npm run build`
+   ```sh
+   # Ejecuta este comando en la interfaz de línea de comandos.
+   git clone https://github.com/isaiahsalah/tutut-control
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Instalar**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Una vez en el directorio del proyecto, ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   # Instala las dependencias en la interfaz de línea de comandos.
+   npm install
+   ```
 
-### `npm run eject`
+3. **Variables de Entorno**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   Después de instalar las dependencias, puedes crear archivos de variables de entorno en la raíz del proyecto React. Para hacer esto, simplemente crea un archivo .env y define las variables de entorno necesarias, utilizando este formato:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   # Configura tu clave de Google Maps API y la dirección IP de tu servidor
+   REACT_APP_GOOGLE_MAPS_API_KEY= "GOOGLE_MAPS_API_KEY"
+   REACT_APP_IP_SERVER="IP_SERVER"
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Ejecutar**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Una vez que hayas configurado tus variables de entorno, ejecuta este comando para iniciar la aplicación.
 
-## Learn More
+   ```sh
+   # Ejecuta este comando en la interfaz de línea de comandos.
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. **Abrir**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   Abre tu navegador y ve a http://localhost:4000 para ver el sitio web.
 
-### Code Splitting
+# 👋🏻 Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Si estás interesado en trabajar conmigo o simplemente quieres saludar, puedes contactarme por medio de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Linkedin](https://www.linkedin.com/in/isaiahsalah/), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
 
-### Analyzing the Bundle Size
+![UwU](https://i.giphy.com/media/Ru9sjtZ09XOEg/giphy.webp)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por tu visita! 🫶🏻🤓
