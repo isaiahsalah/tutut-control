@@ -1,14 +1,14 @@
 <h1 align="center">
-<img height=250 src='./public/assets/images/logo.png'/>  
+<img height=250 src='https://i.imgur.com/lMFvclh.png'/>  
 <br/>
-  💫📋Tutut Control📋💫
+ 🚏🚌 Tutut Control 🚌🚏
 </h1>
 <p align="center">
-    Esta es una 👉🏻<a href="http://www.isaias.work">aplicación web</a> para el monitoreo GPS de transporte público y forma parte del sistema de transporte y monitoreo GPS para transporte público Tutut.</p>
+    Esta es una 👉🏻<a href="http://www.isaias.work">aplicación web</a> que muestra la interfaz visual para el monitoreo GPS de transporte público y forma parte del sistema de movilidad urbana y monitoreo GPS para transporte público Tutut.</p>
 
 # 🧱 Proyecto
 
-Estas son las aplicaciones que forman parte del sistema de transporte y monitoreo GPS de transporte público
+Estas son las aplicaciones que forman parte del sistema de movilidad urbana y monitoreo GPS de transporte público
 
 - <a href="https://github.com/isaiahsalah/tutut-server">Backend de servidor</a>
 - <a href="https://github.com/isaiahsalah/tutut-control">Frontend para control y administración</a>
@@ -19,7 +19,7 @@ Estas son las aplicaciones que forman parte del sistema de transporte y monitore
 
 - React ⚛️
 - Material UI
-- socket.io
+- Socket.io
 
 # 🚀 Instalación
 
@@ -68,6 +68,6 @@ Estas son las aplicaciones que forman parte del sistema de transporte y monitore
 
 Si estás interesado en trabajar conmigo o simplemente quieres saludar, puedes contactarme por medio de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Linkedin](https://www.linkedin.com/in/isaiahsalah/), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
 
-![UwU](https://i.giphy.com/media/Ru9sjtZ09XOEg/giphy.webp)
+![UwU](https://i.giphy.com/media/hWXRWfbbIVMB64QAR7/giphy.webp)
 
 ¡Gracias por tu visita! 🫶🏻🤓
