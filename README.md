@@ -64,6 +64,10 @@ Estas son las aplicaciones que forman parte del sistema de movilidad urbana y mo
 
    Abre tu navegador y ve a http://localhost:4000 para ver el sitio web.
 
+# 🫣 Uso
+
+Puedes ver el funcionamiento de la app 👉🏻[aquí](https://tutut-control.vercel.app).
+
 # 👋🏻 Contacto
 
 Si estás interesado en trabajar conmigo o simplemente quieres saludar, puedes contactarme por medio de [isasalas145@gmail.com](mailto:isasalas145@gmail.com), [Linkedin](https://www.linkedin.com/in/isaiahsalah/), [Whatsapp](https://api.whatsapp.com/send?phone=59170881108&text=%20) o [Twitter](https://twitter.com/isaiahSalah).
