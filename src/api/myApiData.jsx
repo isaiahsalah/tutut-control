@@ -1,6 +1,6 @@
 
-export const urlSocket = `http://${process.env.REACT_APP_API_URL}:3001`;
-export const urlApi = `http://${process.env.REACT_APP_API_URL}:3000/api`;
+export const urlSocket = `${process.env.REACT_APP_API_URL}`;
+export const urlApi = `${process.env.REACT_APP_API_URL}/api`;
 export const urlUser = '/user';
 export const urlLinea = '/linea';
 export const urlInterno = '/interno';

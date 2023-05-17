@@ -52,9 +52,6 @@ const MapView = ({ viaje, ida }) => {
         }, [history])*/
 
     React.useEffect(() => {
-
-
-
         Socket.on("gps", gpsNew => {
             if (gpsNew.internoId === viaje.internoId && ruta != null && new Date() >= new Date(ruta.origin.time) && new Date() < new Date(ruta.destination.time)) {
                 //console.log({lat:gpsNew.location.latitude, lng:gpsNew.location.longitude})
@@ -170,7 +167,7 @@ const MapView = ({ viaje, ida }) => {
                         <MarkerF
 
                             icon={{
-                                url: ".assets/images/pin-red.png",
+                                url: "./assets/images/pin-red.png",
                                 scaledSize: { width: 30, height: 30 }
                             }}
                             position={{
@@ -191,7 +188,7 @@ const MapView = ({ viaje, ida }) => {
                                 <MarkerF
                                     //opacity={0.9}
                                     icon={{
-                                        url: ".assets/images/pin-yellow.png",
+                                        url: "./assets/images/pin-yellow.png",
                                         scaledSize: { width: 30, height: 30 }
                                     }}
                                     key={marker.waypoint.location.lat}
@@ -209,7 +206,7 @@ const MapView = ({ viaje, ida }) => {
                         <MarkerF
                             // opacity={0.7}
                             icon={{
-                                url: ".assets/images/pin-green.png",
+                                url: "./assets/images/pin-green.png",
                                 scaledSize: { width: 30, height: 30 }
                             }}
 

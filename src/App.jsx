@@ -8,8 +8,6 @@ import { SnackbarProvider } from "notistack";
 import { SesionProvider } from "./providers/SesionProvider";
 import { MyRoutes } from "./routes/MyRoutes";
 
-const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-
 // Crea un objeto de tema de Material UI personalizado para el modo oscuro
 const darkTheme = createTheme({
 
